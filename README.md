@@ -132,7 +132,6 @@ erDiagram
 ### Preview page
 ![Preview page](docs/screenshots/PreviewPage1.png)
 ![Preview page](docs/screenshots/PreviewPage2.png)
-![Preview page](docs/screenshots/PreviewPage3.png)
 
 ### CLI run (end-to-end)
 ![CLI send weekly](docs/screenshots/cli-send-weekly.png)
