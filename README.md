@@ -111,7 +111,7 @@ erDiagram
    open dist/site/index.html
    ```
 
-5. **Stretch demo**
+5. **Stretch Goals demo**
 
    ```bash
    npm run scrape:sprouts -- src/scrape/samples/sprouts.sample.html
