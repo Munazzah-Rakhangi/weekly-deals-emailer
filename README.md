@@ -12,6 +12,15 @@ TypeScript/Node pipeline that automates turning weekly deals into branded emails
 
 ---
 
+## Tech Stack
+
+* Node 20+, TypeScript (ESM, NodeNext resolution)
+* Supabase (@supabase/supabase-js)
+* Nodemailer (SMTP; Mailtrap for dev)
+* date-fns (for the sample scraper)
+
+---
+
 ## Environment Variables
 
 Create a `.env` from `.env.example` and fill:
@@ -117,3 +126,23 @@ erDiagram
 * **Lightweight dashboard** to browse/search deals, tweak copy, and send a test email.
 * **Scheduling** (GitHub Actions or a small cron worker) to send every Monday 8am CT.
 * **Preferences UI** so users can manage `preferred_retailers` (linked from the email footer).
+
+## Screenshots
+
+### Preview page
+![Preview page](docs/screenshots/PreviewPage1.png)
+![Preview page](docs/screenshots/PreviewPage2.png)
+![Preview page](docs/screenshots/PreviewPage3.png)
+
+### CLI run (end-to-end)
+![CLI send weekly](docs/screenshots/cli-send-weekly.png)
+
+### Mailtrap (HTML email)
+![Mailtrap HTML](docs/screenshots/mailtrap-html1.png)
+![Mailtrap HTML](docs/screenshots/mailtrap-html2.png)
+![Mailtrap HTML](docs/screenshots/mailtrap-html3.png)
+
+### Supabase — Tables
+![Supabase tables](docs/screenshots/supabase-tables.png)
+
+
