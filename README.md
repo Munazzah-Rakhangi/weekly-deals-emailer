@@ -8,7 +8,7 @@ TypeScript/Node pipeline that automates turning weekly deals into branded emails
 
 * Node.js 20+
 * Supabase project (free tier is fine)
-* Mailtrap account (SMTP) or a Resend API key (optional)
+* Mailtrap account (SMTP)
 
 ---
 
