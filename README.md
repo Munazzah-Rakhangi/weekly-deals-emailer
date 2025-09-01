@@ -41,7 +41,7 @@ SMTP_PASS=...
 
 ---
 
-## Schema Diagram (Mermaid)
+## Schema Diagram
 
 ```mermaid
 erDiagram
